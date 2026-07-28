@@ -4,8 +4,7 @@
 
 This repository implements **FedA2L**, a **Decentralized Federated Learning (DFL)** framework with **adaptive layer-wise learning rate adjustment**.
 
-The goal of FedA2L is to improve **convergence speed** and **convergence stability** in DFL under non-IID data. FedA2L dynamically assigns layer-wise learning rates using model divergence signals, balancinglocal 
-update intensity and network consensus constraints, and integrates into existing DFL workflows **without extra communication or coordination overhead**.
+The goal of FedA2L is to improve **convergence speed** and **convergence stability** in DFL under non-IID data. FedA2L dynamically assigns layer-wise learning rates using model divergence signals, balancing local update intensity and network consensus constraints, and integrates into existing DFL workflows **without extra communication or coordination overhead**.
 
 > **Note**: This codebase is developed and tested primarily on Linux-based systems (Ubuntu recommended).  
 > Windows users may need minor shell/command adjustments.
